@@ -1,0 +1,289 @@
+------------------
+System Information
+------------------
+Time of this report: 5/10/2018, 12:25:17
+       Machine name: JMH-RM116-04
+   Operating System: Windows 7 Professional 64-bit (6.1, Build 7601) Service Pack 1 (7601.win7sp1_ldr_escrow.180330-1600)
+           Language: English (Regional Setting: English)
+System Manufacturer: Dell Inc.
+       System Model: OptiPlex 9030 AIO
+               BIOS: BIOS Date: 01/23/15 01:53:24 Ver: A05.00 
+          Processor: Intel(R) Core(TM) i5-4590S CPU @ 3.00GHz (4 CPUs), ~3.0GHz
+             Memory: 8192MB RAM
+Available OS Memory: 8092MB RAM
+          Page File: 7164MB used, 9018MB available
+        Windows Dir: C:\WINDOWS
+    DirectX Version: DirectX 11
+DX Setup Parameters: Not found
+   User DPI Setting: Using System DPI
+ System DPI Setting: 96 DPI (100 percent)
+    DWM DPI Scaling: Disabled
+     DxDiag Version: 6.01.7601.17514 32bit Unicode
+  DxDiag Previously: Crashed in Direct3D (stage 2) & DirectShow (stage 1). Re-running DxDiag with "dontskip" command line parameter or choosing not to bypass information gathering when prompted might result in DxDiag successfully obtaining this information
+
+------------
+DxDiag Notes
+------------
+      Display Tab 1: No problems found.
+        Sound Tab 1: No problems found.
+          Input Tab: No problems found.
+
+--------------------
+DirectX Debug Levels
+--------------------
+Direct3D:    0/4 (retail)
+DirectDraw:  0/4 (retail)
+DirectInput: 0/5 (retail)
+DirectMusic: 0/5 (retail)
+DirectPlay:  0/9 (retail)
+DirectSound: 0/5 (retail)
+DirectShow:  0/6 (retail)
+
+---------------
+Display Devices
+---------------
+          Card name: Intel(R) HD Graphics 4600
+       Manufacturer: 
+          Chip type: 
+           DAC type: 
+         Device Key: Enum\PCI\VEN_8086&DEV_0412&SUBSYS_06251028&REV_06
+     Display Memory: 
+   Dedicated Memory: n/a
+      Shared Memory: n/a
+       Current Mode: 1920 x 1080 (32 bit) (60Hz)
+       Monitor Name: Generic PnP Monitor
+      Monitor Model: 
+         Monitor Id: 
+        Native Mode: 
+        Output Type: 
+        Driver Name: 
+Driver File Version:  ()
+     Driver Version: 
+        DDI Version: 
+       Driver Model: WDDM 1.1
+  Driver Attributes: Final Retail
+   Driver Date/Size: , 0 bytes
+        WHQL Logo'd: n/a
+    WHQL Date Stamp: n/a
+  Device Identifier: 
+          Vendor ID: 
+          Device ID: 
+          SubSys ID: 
+        Revision ID: 
+ Driver Strong Name: oem59.inf:IntelGfx.NTamd64.6.1:iHSWD_w7:10.18.14.4170:pci\ven_8086&dev_0412&subsys_06251028
+     Rank Of Driver: 00E60001
+        Video Accel: 
+      Deinterlace Caps: n/a
+       D3D9 Overlay: 
+            DXVA-HD: 
+       DDraw Status: Disabled
+         D3D Status: Not Available
+         AGP Status: Not Available
+
+-------------
+Sound Devices
+-------------
+            Description:  Headphones (Realtek High Definition Audio)
+ Default Sound Playback: Yes
+ Default Voice Playback: Yes
+            Hardware ID: HDAUDIO\FUNC_01&VEN_10EC&DEV_0668&SUBSYS_10280625&REV_1000
+        Manufacturer ID: 1
+             Product ID: 100
+                   Type: WDM
+            Driver Name: RTDVHD64.sys
+         Driver Version: 6.00.0001.6053 (English)
+      Driver Attributes: Final Retail
+            WHQL Logo'd: Yes
+          Date and Size: 10/15/2014 19:25:58, 2638808 bytes
+            Other Files: 
+        Driver Provider: Realtek Semiconductor Corp.
+         HW Accel Level: Basic
+              Cap Flags: 0xF1F
+    Min/Max Sample Rate: 100, 200000
+Static/Strm HW Mix Bufs: 1, 0
+ Static/Strm HW 3D Bufs: 0, 0
+              HW Memory: 0
+       Voice Management: No
+ EAX(tm) 2.0 Listen/Src: No, No
+   I3DL2(tm) Listen/Src: No, No
+Sensaura(tm) ZoomFX(tm): No
+
+---------------------
+Sound Capture Devices
+---------------------
+            Description: Microphone (Realtek High Definition Audio)
+  Default Sound Capture: Yes
+  Default Voice Capture: Yes
+            Driver Name: RTDVHD64.sys
+         Driver Version: 6.00.0001.6053 (English)
+      Driver Attributes: Final Retail
+          Date and Size: 10/15/2014 19:25:58, 2638808 bytes
+              Cap Flags: 0x1
+           Format Flags: 0xFFFFF
+
+-------------------
+DirectInput Devices
+-------------------
+      Device Name: Mouse
+         Attached: 1
+    Controller ID: n/a
+Vendor/Product ID: n/a
+        FF Driver: n/a
+
+      Device Name: Keyboard
+         Attached: 1
+    Controller ID: n/a
+Vendor/Product ID: n/a
+        FF Driver: n/a
+
+Poll w/ Interrupt: No
+
+-----------
+USB Devices
+-----------
++ USB Root Hub
+| Vendor/Product ID: 0x8086, 0x8C26
+| Matching Device ID: usb\root_hub20
+| Service: usbhub
+| 
++-+ Generic USB Hub
+| | Vendor/Product ID: 0x8087, 0x8000
+| | Location: Port_#0001.Hub_#0002
+| | Matching Device ID: usb\class_09
+| | Service: usbhub
+
+----------------
+Gameport Devices
+----------------
+
+------------
+PS/2 Devices
+------------
++ HID Keyboard Device
+| Vendor/Product ID: 0x413C, 0x2107
+| Matching Device ID: hid_device_system_keyboard
+| Service: kbdhid
+| 
++ Terminal Server Keyboard Driver
+| Matching Device ID: root\rdp_kbd
+| Upper Filters: kbdclass
+| Service: TermDD
+| 
++ HID-compliant mouse
+| Vendor/Product ID: 0x046D, 0xC077
+| Matching Device ID: hid_device_system_mouse
+| Service: mouhid
+| 
++ Terminal Server Mouse Driver
+| Matching Device ID: root\rdp_mou
+| Upper Filters: mouclass
+| Service: TermDD
+
+------------------------
+Disk & DVD/CD-ROM Drives
+------------------------
+      Drive: C:
+ Free Space: 268.4 GB
+Total Space: 476.6 GB
+File System: NTFS
+      Model: ST500LT0 12-1DG142 SCSI Disk Device
+
+      Drive: D:
+      Model: HL-DT-ST DVD+-RW GU90N SCSI CdRom Device
+     Driver: c:\windows\system32\drivers\cdrom.sys, 6.01.7601.17514 (English), , 0 bytes
+
+--------------
+System Devices
+--------------
+     Name: Standard Enhanced PCI to USB Host Controller
+Device ID: PCI\VEN_8086&DEV_8C2D&SUBSYS_06251028&REV_04\3&11583659&2&D0
+   Driver: n/a
+
+     Name: High Definition Audio Controller
+Device ID: PCI\VEN_8086&DEV_0C0C&SUBSYS_06251028&REV_06\3&11583659&2&18
+   Driver: n/a
+
+     Name: Standard Enhanced PCI to USB Host Controller
+Device ID: PCI\VEN_8086&DEV_8C26&SUBSYS_06251028&REV_04\3&11583659&2&E8
+   Driver: n/a
+
+     Name: PCI Express standard Root Port
+Device ID: PCI\VEN_8086&DEV_0C01&SUBSYS_06251028&REV_06\3&11583659&2&08
+   Driver: n/a
+
+     Name: Intel Device
+Device ID: PCI\VEN_8086&DEV_8C22&SUBSYS_06251028&REV_04\3&11583659&2&FB
+   Driver: n/a
+
+     Name: PCI standard host CPU bridge
+Device ID: PCI\VEN_8086&DEV_0C00&SUBSYS_06251028&REV_06\3&11583659&2&00
+   Driver: n/a
+
+     Name: High Definition Audio Controller
+Device ID: PCI\VEN_8086&DEV_8C20&SUBSYS_06251028&REV_04\3&11583659&2&D8
+   Driver: n/a
+
+     Name: Intel(R) HD Graphics 4600
+Device ID: PCI\VEN_8086&DEV_0412&SUBSYS_06251028&REV_06\3&11583659&2&10
+   Driver: n/a
+
+     Name: PCI Express standard Root Port
+Device ID: PCI\VEN_8086&DEV_8C1C&SUBSYS_06251028&REV_D4\3&11583659&2&E6
+   Driver: n/a
+
+     Name: BayHubTech/O2Micro Integrated MMC/SD controller
+Device ID: PCI\VEN_1217&DEV_8520&SUBSYS_06251028&REV_01\4&328EDC98&0&00E6
+   Driver: n/a
+
+     Name: PCI standard ISA bridge
+Device ID: PCI\VEN_8086&DEV_8C4E&SUBSYS_06251028&REV_04\3&11583659&2&F8
+   Driver: n/a
+
+     Name: PCI Express standard Root Port
+Device ID: PCI\VEN_8086&DEV_8C10&SUBSYS_06251028&REV_D4\3&11583659&2&E0
+   Driver: n/a
+
+     Name: AMD Radeon R7 A265
+Device ID: PCI\VEN_1002&DEV_6604&SUBSYS_06251028&REV_00\4&4AE686E&0&0008
+   Driver: n/a
+
+     Name: Intel(R) Management Engine Interface 
+Device ID: PCI\VEN_8086&DEV_8C3A&SUBSYS_06251028&REV_04\3&11583659&2&B0
+   Driver: n/a
+
+     Name: Intel(R) Desktop/Workstation/Server Express Chipset SATA RAID Controller
+Device ID: PCI\VEN_8086&DEV_2822&SUBSYS_06251028&REV_04\3&11583659&2&FA
+   Driver: n/a
+
+     Name: Intel(R) USB 3.0 eXtensible Host Controller
+Device ID: PCI\VEN_8086&DEV_8C31&SUBSYS_06251028&REV_04\3&11583659&2&A0
+   Driver: n/a
+
+     Name: Intel(R) Ethernet Connection I217-LM
+Device ID: PCI\VEN_8086&DEV_153A&SUBSYS_06251028&REV_04\3&11583659&2&C8
+   Driver: n/a
+
+---------------
+EVR Power Information
+---------------
+Current Setting: {5C67A112-A4C9-483F-B4A7-1D473BECAFDC} (Quality) 
+  Quality Flags: 2576
+    Enabled:
+    Force throttling
+    Allow half deinterlace
+    Allow scaling
+    Decode Power Usage: 100
+  Balanced Flags: 1424
+    Enabled:
+    Force throttling
+    Allow batching
+    Force half deinterlace
+    Force scaling
+    Decode Power Usage: 50
+  PowerFlags: 1424
+    Enabled:
+    Force throttling
+    Allow batching
+    Force half deinterlace
+    Force scaling
+    Decode Power Usage: 0
